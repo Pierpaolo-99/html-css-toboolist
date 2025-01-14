@@ -25,6 +25,7 @@ body{
 #title{
     display: inline-block;
     font-size: 42px;
+    vertical-align: top;
 }
 
 .site_header{
@@ -36,8 +37,8 @@ body{
     width: 80%;
     margin: 38px auto;
     background-color: #ffffff;
-    padding-left: 165px;
-    border-radius: 5rem;
+    padding-left: 150px;
+    border-radius: 2rem;
 }
 
 .nav_button{
@@ -59,4 +60,42 @@ body{
     border-color: var(--toboo-button-lightgrey);
     background-color: var(--toboo-bg-white);
     color: var(--toboo-button-lightgrey);
+}
+
+.newtask{
+    margin-top: 2rem;
+}
+
+#entity_arrow{
+    font-size: 2rem;
+}
+
+.section_title{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list{
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.entity_check{
+    border: 3px solid #90d3c3;
+    border-radius: 50%;
+    color: #90d3c3;
+    font-size: 1rem;
+    font-weight: 1000;
+    padding: 0.25rem;
+    margin-right: 0.5rem;
+
+}
+
+.editorial{
+    background-color: var(--toboo-skyblu);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
 }
