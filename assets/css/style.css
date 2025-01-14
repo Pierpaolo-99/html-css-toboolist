@@ -85,10 +85,10 @@ body{
 }
 
 .entity_check{
-    border: 3px solid var(--toboo-check-green);
+    border: 2px solid var(--toboo-check-green);
     border-radius: 50%;
     color: var(--toboo-check-green);
-    font-size: 1rem;
+    font-size: 10px;
     font-weight: 1000;
     padding: 0.25rem;
     margin-right: 0.5rem;
@@ -96,10 +96,10 @@ body{
 }
 
 .entity_cross{
-    border: 3px solid var(--toboo-cross-red);
+    border: 2px solid var(--toboo-cross-red);
     border-radius: 50%;
     color: var(--toboo-cross-red);
-    font-size: 1rem;
+    font-size: 10px;
     font-weight: 1000;
     padding: 0.25rem;
     margin-right: 0.5rem;
