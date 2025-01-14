@@ -16,6 +16,8 @@
     --toboo-orange: #f29e33;
     --toboo-pink: #d863a0;
     --toboo-lightgreen: #b0c926;
+    --toboo-check-green: #90d3c3;
+    --toboo-cross-red: #ee736d;
 }
 
 body{
@@ -30,13 +32,13 @@ body{
 
 .site_header{
     padding-left: 2rem;
-    background-color: #ffffff;
+    background-color: var(--toboo-bg-white);
 }
 
 .container{
     width: 80%;
     margin: 38px auto;
-    background-color: #ffffff;
+    background-color: var(--toboo-bg-white);
     padding-left: 150px;
     padding-bottom: 1rem;
     border-radius: 2rem;
@@ -53,7 +55,7 @@ body{
     border-radius: 0.25rem;
     border-color: var(--toboo-button-skyblu);
     background-color: var(--toboo-button-skyblu);
-    color: #ffffff;
+    color: var(--toboo-bg-white);
 }
 
 #button_section{
@@ -62,11 +64,6 @@ body{
     border-color: var(--toboo-button-lightgrey);
     background-color: var(--toboo-bg-white);
     color: var(--toboo-button-lightgrey);
-}
-
-#rule{
-    margin-top: 0.5rem;
-
 }
 
 .section{
@@ -88,9 +85,9 @@ body{
 }
 
 .entity_check{
-    border: 3px solid #90d3c3;
+    border: 3px solid var(--toboo-check-green);
     border-radius: 50%;
-    color: #90d3c3;
+    color: var(--toboo-check-green);
     font-size: 1rem;
     font-weight: 1000;
     padding: 0.25rem;
@@ -99,9 +96,9 @@ body{
 }
 
 .entity_cross{
-    border: 3px solid #ee736d;
+    border: 3px solid var(--toboo-cross-red);
     border-radius: 50%;
-    color: #ee736d;
+    color: var(--toboo-cross-red);
     font-size: 1rem;
     font-weight: 1000;
     padding: 0.25rem;
