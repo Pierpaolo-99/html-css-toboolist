@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Sans", serif;
+}
+
+:root{
+    --toboo-botton-skyblu: #47adf1;
+    --toboo-skyblu: #45abe9;
+    --toboo-purple: #9c72e4;
+    --toboo-green: #64c0a8;
+    --toboo-orange: #f29e33;
+    --toboo-pink: #d863a0;
+    --toboo-lightgreen: #b0c926;
+}
+
+.site_header{
+    display: inline-block;
+}
