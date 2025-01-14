@@ -15,6 +15,10 @@
     --toboo-lightgreen: #b0c926;
 }
 
-.site_header{
+#title{
     display: inline-block;
+}
+
+.site_header{
+    padding-left: 1rem;
 }
