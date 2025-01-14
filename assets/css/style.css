@@ -6,7 +6,10 @@
 }
 
 :root{
-    --toboo-botton-skyblu: #47adf1;
+    --toboo-bg-white: #ffffff;
+    --toboo-bg-lightgrey: #f6f8f9;
+    --toboo-button-skyblu: #47adf1;
+    --toboo-button-lightgrey: #d5dadd;
     --toboo-skyblu: #45abe9;
     --toboo-purple: #9c72e4;
     --toboo-green: #64c0a8;
@@ -15,10 +18,45 @@
     --toboo-lightgreen: #b0c926;
 }
 
+body{
+    background-color: var(--toboo-bg-lightgrey);
+}
+
 #title{
     display: inline-block;
+    font-size: 42px;
 }
 
 .site_header{
-    padding-left: 1rem;
+    padding-left: 2rem;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 80%;
+    margin: 38px auto;
+    background-color: #ffffff;
+    padding-left: 165px;
+    border-radius: 5rem;
+}
+
+.nav_button{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#button_task{
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border-color: var(--toboo-button-skyblu);
+    background-color: var(--toboo-button-skyblu);
+    color: #ffffff;
+}
+
+#button_section{
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border-color: var(--toboo-button-lightgrey);
+    background-color: var(--toboo-bg-white);
+    color: var(--toboo-button-lightgrey);
 }
