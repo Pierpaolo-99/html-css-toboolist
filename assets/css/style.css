@@ -38,7 +38,9 @@ body{
     margin: 38px auto;
     background-color: #ffffff;
     padding-left: 150px;
+    padding-bottom: 1rem;
     border-radius: 2rem;
+
 }
 
 .nav_button{
@@ -62,7 +64,12 @@ body{
     color: var(--toboo-button-lightgrey);
 }
 
-.newtask{
+#rule{
+    margin-top: 0.5rem;
+
+}
+
+.section{
     margin-top: 2rem;
 }
 
@@ -91,6 +98,16 @@ body{
 
 }
 
+.entity_cross{
+    border: 3px solid #ee736d;
+    border-radius: 50%;
+    color: #ee736d;
+    font-size: 1rem;
+    font-weight: 1000;
+    padding: 0.25rem;
+    margin-right: 0.5rem;
+}
+
 .editorial{
     background-color: var(--toboo-skyblu);
     border-radius: 1rem;
@@ -98,4 +115,58 @@ body{
     color: var(--toboo-bg-white);
     font-size: 12px;
     margin-left: 0.5rem;
+}
+
+.item{
+    margin-bottom: 1rem;
+}
+
+.Q1_goals{
+    background-color: var(--toboo-purple);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+
+.recruiting{
+    background-color: var(--toboo-green);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+
+.mobile{
+    background-color: var(--toboo-orange);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+
+.website{
+    background-color: var(--toboo-pink);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+
+.sales{
+    background-color: var(--toboo-lightgreen);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--toboo-bg-white);
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+
+.footer{
+    font-weight: 600;
+    margin: 2rem;
 }
